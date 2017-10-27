@@ -45,6 +45,7 @@
     "redux-persist": "4.10.1",
     "redux-persist-transform-filter": "0.0.15",
     "reselect": "3.0.1",
+    "shallow-equals": "^1.0.0",
     "superagent": "3.6.1",
     "twemoji": "2.5.0",
     "velocity-animate": "1.5.0",
