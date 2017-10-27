@@ -23,6 +23,8 @@ import TutorialView from 'components/tutorial/tutorial_view.jsx';
 const TutorialSteps = Constants.TutorialSteps;
 const Preferences = Constants.Preferences;
 
+import CugcBannerView from 'components/cugc_banner_view.jsx';
+
 export default class ChannelView extends React.Component {
     constructor(props) {
         super(props);
@@ -102,6 +104,7 @@ export default class ChannelView extends React.Component {
                 className='app__content'
             >
                 <FileUploadOverlay overlayType='center'/>
+                <CugcBannerView channelId={this.state.channelId} />
                 <ChannelHeader
                     channelId={this.state.channelId}
                 />
